@@ -21,8 +21,9 @@ scopes = "read_customers,write_customers,write_products,write_orders,read_orders
 redirect_urls = [
   "https://informative-ontario-portugal-belfast.trycloudflare.com/auth/callback",
   "https://informative-ontario-portugal-belfast.trycloudflare.com/auth/shopify/callback",
-  "https://informative-ontario-portugal-belfast.trycloudflare.com/api/auth/callback"
-]
+  "https://informative-ontario-portugal-belfast.trycloudflare.com/api/auth/callback",
+  "https://app.customercloudhq.com//shopify/callback"
+"]
 
 [pos]
 embedded = false
